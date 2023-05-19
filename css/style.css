@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat+Alternates:wght@400;700&display=swap');
+
+body{
+    background-color:  hsl(27, 66%, 92%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+html{
+}
+main{
+    width: 26%;
+}
+
+.box-infoLogo{
+    display: flex;
+    flex-direction: column ;
+    gap: .5rem;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+.box-logo{
+
+    color: white;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 20px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 5.5rem;
+    width: 100%;
+}
+
+
+.box-conteudo{
+    margin-top: 15px;
+    background-color:white ;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 4rem;
+}
+.vlr{
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif;
+}
+.my{
+    font-size: 12px;
+}
+.box-spen{
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+}
+.spending{
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    font-size: 20px;
+}
+
+.box-meses{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    gap: .5rem;
+    width: 100%;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(198, 195, 195);
+  
+}
+.box-contentTAB{
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+}
+.cores{
+    width: 55%;
+}
+.mon{
+    height: 2rem;
+    /* width: 2rem; */
+    border-radius: 5px;
+    background-color: hsl(10, 79%, 65%);
+}
+.tue{
+    height: 4rem;
+    /* width: 2rem; */
+    border-radius: 5px;
+    background-color: hsl(10, 79%, 65%);
+}
+.thu{
+    height: 3rem;
+    /* width: 2rem; */
+    border-radius: 5px;
+    background-color: hsl(10, 79%, 65%);
+}
+.fri{
+    height: 2.5rem;
+    /* width: 2rem; */
+    border-radius: 5px;
+    background-color: hsl(10, 79%, 65%);
+}
+.sat{
+    height: 5.5rem;
+    /* width: 2rem; */
+    border-radius: 5px;
+    background-color: hsl(10, 79%, 65%);
+}
+.sun{
+    height: 2.8rem;
+    /* width: 2rem; */
+    border-radius: 5px;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.wed{
+    height: 6rem;
+    /* width: 2rem; */
+    border-radius: 5px;
+    background-color: hsl(10, 79%, 65%);
+}
+/* .wed:hover{
+    cursor: pointer;
+} */
+
+.dindin,.dindin2{
+    display: none;
+    background-color: black;
+    padding: 2px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+/* .box-valorbot{
+
+} */
+
+.valor{
+    font-size: 45px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.box-valorbot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.box-infovalor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+@media(max-width: 1000px){
+    main{
+        width: 40%;
+    }
+}
+
+@media(max-width: 700px){
+    main{
+        width: 70%;
+    }
+}
+
+@media(max-width: 500px){
+    main{
+        width: 80%;
+    }
+}
